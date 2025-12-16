@@ -24,3 +24,30 @@ h1 {
 .btn-retour:hover {
     background-color: #8F2114;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+body {
+    padding-top: 60px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #4CAF50;
+}
