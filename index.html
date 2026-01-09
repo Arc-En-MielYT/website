@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accueil 2| Arc-En-Miel</title>
+  <title>Accueil | Arc-En-Miel</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
+      text-align: left;
       background: #000000;
       color: #f5f5f5;
       padding: 40px 20px;
@@ -35,17 +35,23 @@
       background: #AD9897;
       color: #ffffff;
       text-decoration: none;
-      padding: 20px;
+      padding: 10px 14px;
       border-radius: 25px;
       font-weight: bold;
       transition: all 0.2s;
-      display: flex;
+      display: inline-block;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
 
+    .content {
+  max-width: 1800px;     /* largeur propre */
+  margin: 0 auto;       /* centre le bloc */
+  text-align: left;     /* MAIS texte à gauche */
+    }
+    
     footer {
       margin-top: 50px;
       font-size: 14px;
@@ -54,6 +60,7 @@
   </style>
 </head>
 <body>
+  <div class="content">
   <h1>Qui suis-je ?</h1>
   <p>Eh bien salut, je suis Arc-En-Miel, YouTuber baser gaming (avec 1 vidéo par trimestre si j'ai pas la flemme) de 18 ans baser en France.</p>
   <p>Pationner et intriger par les cryptomonnaie, du Hardware PC en générale, et de la programation.</p>
@@ -76,10 +83,8 @@
 
   <a href="https://xno.click/youtubearc" class="crypto-button" style="color:#FE0133;">YouTube*</a>
   <a href="https://xno.click/githubarc" class="crypto-button" style="color:#1B1E22;">GitHub Offielle*</a>
-
-  <a href="https://xno.click/youtubearc" style="color:#FE0133;">YouTube</a>
-  <a href="https://xno.click/githubarc" style="color:#1B1E22;">GitHub Offielle</a>
-    
+  </div>
+  
   <footer>
   Arc-en-Miel | *Les liens passent par xno.click (ça m’aide un peu, rien ne change pour toi !) | DISCLAIMER : Je ne suis pas affilié à xno.click.
   <a href="https://github.com/Arc-En-MielYT" style="color:#FF9900;">GitHub</a>
